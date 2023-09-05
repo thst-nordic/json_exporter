@@ -1,5 +1,20 @@
 json_exporter
 ========================
+
+
+## THST - Custom build of client-go to fix parsing bug. 
+
+```
+git submodule update
+docker login docker-dtr.nordicsemi.no
+```
+# use buran_ci if you want it to push to DTR
+```
+./build-docker-image.sh
+```
+
+
+
 [![CircleCI](https://circleci.com/gh/prometheus-community/json_exporter.svg?style=svg)](https://circleci.com/gh/prometheus-community/json_exporter)
 
 A [prometheus](https://prometheus.io/) exporter which scrapes remote JSON by JSONPath.

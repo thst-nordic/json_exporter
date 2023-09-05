@@ -1,0 +1,4 @@
+[submodule "client-go"]
+	path = client-go
+	url = https://github.com/sthielo/client-go.git
+	branch = jsonpath-issue-1018
